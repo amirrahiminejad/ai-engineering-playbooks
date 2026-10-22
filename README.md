@@ -1,62 +1,62 @@
 # AI Engineering Playbooks
 
-مجموعه‌ای از Playbookها، پرامپت‌ها و گردش‌کارهای عملی برای استفاده مؤثر از هوش مصنوعی در مهندسی نرم‌افزار.
+A collection of practical playbooks, prompts, and workflows for using AI effectively in software engineering.
 
-هدف این مخزن، ارائه روش‌های ساختاریافته و قابل استفاده برای کمک به توسعه‌دهندگان و معماران نرم‌افزار است؛ از شناخت یک سیستم ناشناخته تا تحلیل معماری، بازبینی کد و بهبود تدریجی نرم‌افزارهای موجود.
+This repository provides structured, reusable methods to help developers and software architects—from understanding an unfamiliar system to analyzing architecture, reviewing code, and incrementally improving existing software.
 
-## چرا این مخزن؟
+## Why This Repository?
 
-ابزارهای هوش مصنوعی می‌توانند در توسعه نرم‌افزار بسیار کمک‌کننده باشند؛ اما کیفیت خروجی به نحوه استفاده از آن‌ها بستگی دارد.
+AI tools can be extremely helpful in software development, but the quality of their output depends on how they are used.
 
-به‌جای استفاده از پرامپت‌های پراکنده، این مخزن تلاش می‌کند فرایندهای چندمرحله‌ای و قابل تکراری ارائه دهد که در آن‌ها شواهد، محدودیت‌ها، اعتبارسنجی و تصمیم‌های مهندسی اهمیت دارند.
+Rather than relying on scattered prompts, this repository aims to provide repeatable, multi-step workflows that emphasize evidence, constraints, validation, and engineering decisions.
 
 ## Playbooks
 
 ### 1. Reverse Engineering
 
-مهندسی معکوس پروژه‌های نرم‌افزاری با کمک ابزارهایی مانند Cursor و GitHub Copilot.
+Reverse engineering software projects with the help of tools such as Cursor and GitHub Copilot.
 
-این Playbook به شما کمک می‌کند:
+This playbook helps you:
 
-- ساختار و فناوری‌های پروژه را شناسایی کنید.
-- نقاط ورود، APIها و وابستگی‌های سیستم را استخراج کنید.
-- جریان‌های اصلی کسب‌وکار و مدل داده را بررسی کنید.
-- معماری موجود، ریسک‌ها و ابهامات را مستند کنید.
-- برای توسعه قابلیت‌های جدید و بهبود تدریجی سیستم، برنامه‌ریزی کنید.
+- Identify a project's structure and technology stack.
+- Map entry points, APIs, and system dependencies.
+- Examine core business flows and the data model.
+- Document the existing architecture, risks, and unknowns.
+- Plan the development of new capabilities and the incremental improvement of the system.
 
-**مسیر:** [`reverse-engineering/`](./reverse-engineering/)
+**Directory:** [`reverse-engineering/`](./reverse-engineering/)
 
-## اصول طراحی Playbookها
+## Playbook Design Principles
 
-Playbookهای این مخزن بر اساس اصول زیر طراحی می‌شوند:
+The playbooks in this repository are designed around the following principles:
 
-- **مرحله‌بندی:** تقسیم فعالیت‌های پیچیده به گام‌های مشخص و قابل پیگیری.
-- **شواهد به‌جای حدس:** تفکیک واقعیت‌های تأییدشده از استنباط‌ها و موارد نامشخص.
-- **اعتبارسنجی:** بررسی خروجی‌های تولیدشده توسط AI پیش از اتکا به آن‌ها.
-- **ایمنی:** پرهیز از تغییرات ناخواسته، اجرای عملیات مخرب و افشای اطلاعات حساس.
-- **مستندسازی:** تولید خروجی‌های ساختاریافته و قابل نگهداری.
-- **استقلال از ابزار:** طراحی پرامپت‌ها تا حد امکان به شکلی که بتوان آن‌ها را با ابزارهای مختلف سازگار کرد.
+- **Phased execution:** Break complex activities into clear, trackable steps.
+- **Evidence over assumptions:** Distinguish verified facts from inferences and unknowns.
+- **Validation:** Review AI-generated outputs before relying on them.
+- **Safety:** Avoid unintended changes, destructive operations, and disclosure of sensitive information.
+- **Documentation:** Produce structured, maintainable outputs.
+- **Tool independence:** Design prompts to be adaptable to different tools wherever possible.
 
-## نحوه استفاده
+## How to Use
 
-1. Playbook متناسب با نیاز خود را انتخاب کنید.
-2. دستورالعمل‌ها را بررسی و با شرایط پروژه تطبیق دهید.
-3. پرامپت هر مرحله را در ابزار AI موردنظر خود اجرا کنید.
-4. شواهد و خروجی‌ها را بررسی و اعتبارسنجی کنید.
-5. نتایج را متناسب با محدودیت‌ها و نیازهای واقعی پروژه اصلاح کنید.
+1. Choose the playbook that fits your needs.
+2. Review the instructions and adapt them to your project.
+3. Run each step's prompt in your preferred AI tool.
+4. Review and validate the evidence and outputs.
+5. Adjust the results to reflect the project's real-world constraints and needs.
 
-> خروجی ابزارهای هوش مصنوعی لزوماً درست یا کامل نیست. تصمیم‌های معماری، تغییرات کد و نتایج تحلیل باید توسط مهندس نرم‌افزار بررسی شوند.
+> AI-generated output is not necessarily correct or complete. Software engineers should review architectural decisions, code changes, and analysis results.
 
-## مشارکت
+## Contributing
 
-اگر تجربه، پیشنهاد یا Playbook کاربردی دیگری دارید، از مشارکت شما استقبال می‌کنم.
+If you have experience, suggestions, or another useful playbook to share, contributions are welcome.
 
-می‌توانید با ثبت Issue یا ارسال Pull Request در توسعه این مجموعه مشارکت کنید.
+You can help improve this collection by opening an issue or submitting a pull request.
 
-## مجوز استفاده
+## License
 
-مجوز استفاده از محتوای این مخزن پس از تعیین و اضافه‌شدن فایل `LICENSE` مشخص خواهد شد.
+The license for this repository's content will be specified once a `LICENSE` file has been selected and added.
 
 ---
 
-این مخزن به‌مرور با Playbookها و گردش‌کارهای جدید در حوزه مهندسی نرم‌افزار و هوش مصنوعی توسعه پیدا می‌کند.
+This repository will continue to grow over time with new playbooks and workflows for software engineering and AI.
